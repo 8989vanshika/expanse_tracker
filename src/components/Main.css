@@ -1,0 +1,31 @@
+.mainBlock{
+     border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 450px;
+    margin: 100px auto;
+  
+    display: table;
+    background-color: rgba(41, 39, 39, 0.3);
+    box-shadow: 0 5px 30px rgb(46, 63, 111);
+
+}
+.Error{
+    padding: 10px;
+    background-color: #feeaea;
+    border: 1px solid #fadadb;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+.Spinner{
+    display: table;
+    margin: 0 auto;
+    padding:300px ;
+
+}
+
+.Spinner> .ImgSpinner{
+    max-width: 60px;
+}

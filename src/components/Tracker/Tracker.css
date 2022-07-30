@@ -1,0 +1,142 @@
+.trackerBlock{
+  
+  padding: 20px;
+  width: 100%;
+  max-width: 350px;
+  margin: 100px auto;
+  display: table;
+  color: white;
+  background-color: none;
+  box-shadow: 0 5px 30px rgb(46, 63, 111);
+   
+    
+
+}
+.welcome{
+    color: #fff;
+display: flex;
+justify-content: space-between;
+margin: 0;
+
+
+
+
+}
+.totalMoney{
+    color: #fff;
+font-size: 20px;
+margin:  0 0 10px;
+
+
+} 
+.newTransaction{
+    box-sizing: border-box;
+    text-align: center;
+    color: blue;
+    display: table;
+    width: 100%;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px;
+    margin: 0 0 10px;
+    font-size: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:#fff ;
+} 
+.newTransaction input[type="text"],
+.newTransaction select{
+    width: 100%;
+    box-sizing: border-box;
+    border:  1px solid black;
+    font-size: 13px;
+    padding: 7px;
+    
+}
+
+
+.newTransaction input[type="text"],
+.newTransaction select:focus{
+    outline: none;
+}
+.inputGroup{
+    display: flex;
+    justify-content: center;
+    
+}
+.addTransction{
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    background-color:  black;
+    border: 0;
+    margin: 5px 0 0;
+    padding: 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.addTransction:hover{
+    background-color:blue;
+}
+.addTransaction:focus{
+    outline: none;
+}
+.latestTransactions{
+    margin: 15px 0 0 0;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    color: black;
+  
+}
+.latestTransactions p{
+    font-weight: bold;
+    padding: 0 0 5px;
+    margin: 0;
+    font-size: 13px;
+    border-bottom: 1px solid #ddd;
+    
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+ul li:last-child{
+    border-bottom: 0;
+    padding: 5px 0 0;
+}
+
+.expense {
+    color: red;
+}
+
+.deposit {
+    color: green;
+}
+
+.exit {
+    background-color: #fff;
+    border: 0;
+    border-radius: 3px;
+    color: red;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.exit:hover {
+    background-color: #f1f1f1;
+}
+.expense{
+    color: red;
+}
+.deposit{
+    color: green;
+}
